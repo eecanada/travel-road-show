@@ -4,20 +4,60 @@ body {
   padding-bottom: 20px;
 }
 
+.navbar {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  background-color: white;
+  border-color: white
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/roadShow.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100%;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 130px;
+  padding-bottom: 200px;
+}
+
+.jumbotron p {
+  color: white;
+  font-weight: 200
+}
+
 .container{
   text-align: center;
 }
 
 .container h1 {
   font-family: 'Arvo', serif;
+  margin-top: 0px;
+  margin-bottom: 50px;
+  color: white
 }
 
 ul.nav {
   font-family: 'Arvo', serif;
   font-size: 13px
+
 }
 
+
+
 .btn-lg {
-  font-size: 24px
+  font-size: 24px;
+  margin-top: 40px;
+
+}
+
+.navbar-brand {
+  float: left;
+  height: 50px;
+  padding: 6px 15px;
+  font-size: 18px;
+  line-height: 20px;
 }
 
