@@ -37,6 +37,22 @@ body {
   color: white
 }
 
+#pageTitle{
+  color: #F24333;
+  font-family: 'Arvo', serif;
+  margin-top: 100px
+}
+
+.reasons{
+  color: #F24333;
+  font-family: 'Arvo', serif;
+  text-transform: uppercase
+}
+
+.explanation {
+  font-weight: 400;
+  font-size: 16px
+}
 ul.nav {
   font-family: 'Arvo', serif;
   font-size: 13px
@@ -45,6 +61,7 @@ ul.nav {
 .btn-lg {
   font-size: 24px;
   margin-top: 40px;
+  background-color:#F24333
 
 }
 
