@@ -83,10 +83,36 @@ ul.nav {
   line-height: 20px;
 }
 
-.footer{
+/* .footer{
   background-color:#F24333;
-  padding-bottom:5px
 }
+
+.socialMedia{
+  color: white
+} */
+
+.fab{
+  color: white
+}
+
+.page-footer{
+  background-color:#F24333;
+  padding-top: 30px;
+  padding-bottom: 30px
+}
+
+.footer-copyright{
+  color:white
+}
+
+.list-inline-item{
+  color: white
+}
+
+.siteLink{
+  
+}
+
 
 .navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
   margin-left: -15px;
