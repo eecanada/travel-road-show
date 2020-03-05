@@ -110,7 +110,11 @@ ul.nav {
 }
 
 .siteLink{
-  
+  color: white
+}
+
+.siteLink:hover{
+  color: #101010
 }
 
 
