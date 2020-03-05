@@ -29,7 +29,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a {
-  color: black;
+  color: #071970;
 }
 
 
@@ -40,7 +40,7 @@ body {
 }
 
 .navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
-  color: #9d9d99;
+  color: #a5170f;
   background-color: transparent;
 }
 
@@ -58,7 +58,8 @@ body {
 
 .jumbotron p {
   color: white;
-  font-weight: 200
+  font-weight: 200;
+  padding-top: 20px
 }
 
 .container{
@@ -67,7 +68,7 @@ body {
 
 .container h1 {
   font-family: 'Arvo', serif;
-  margin-top: 100px;
+  margin-top: 50px;
   margin-bottom: 50px;
   color: white
 }
@@ -106,8 +107,15 @@ ul.nav {
 .btn-lg {
   font-size: 24px;
   margin-top: 40px;
-  background-color:#a5170f
+  background-color:#a5170f;
+  border-color: #a5170f
 
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #071970;
+  border-color: #071970;
 }
 
 .navbar-brand {
@@ -149,7 +157,15 @@ ul.nav {
 }
 
 .siteLink:hover{
-  color: #101010
+  color: #071970
 }
 
+.navbar-inverse .navbar-toggle {
+  border-color: #071970;
+  background-color: #071970
+}
 
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #a5170f;
+  border-color: #a5170f;
+}
