@@ -231,3 +231,11 @@ color: #a5170f
   color: #071970;
   text-decoration: none
 }
+
+
+@media(min-width: 1800){
+  .jumbotron{
+    padding-bottom: 360px;
+  }
+
+}
