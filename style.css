@@ -212,3 +212,22 @@ ul.nav {
 .column h2 {
   color:#071970
 }
+
+#columnTwo a{
+  color:#071970
+}
+
+#columnOne p {
+  color:#071970
+}
+
+#columnTwo a:hover{
+text-decoration: none;
+color: #a5170f
+}
+
+
+.footer-copyright a:hover {
+  color: #071970;
+  text-decoration: none
+}
