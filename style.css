@@ -7,6 +7,41 @@ body {
 .navbar {
   padding-top: 5px;
   padding-bottom: 5px;
+  background-color: white;
+}
+
+.navbar-inverse {
+  background-color: white;
+  border-color: white;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: -15px;
+  /* margin-bottom: 25px; */
+  margin-top: -24px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  background-color: transparent;
+}
+
+.navbar-inverse .navbar-nav>li>a {
+  color: #071970;
+}
+
+
+.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+  margin-left: -15px;
+  /* margin-bottom: 25px; */
+  margin-top: -24px;
+}
+
+.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+  color: #a5170f;
+  background-color: transparent;
 }
 
 .jumbotron {
@@ -18,12 +53,13 @@ body {
   color: white;
   margin-bottom: 0px;
   padding-top: 130px;
-  padding-bottom: 200px;
+  padding-bottom: 250px;
 }
 
 .jumbotron p {
   color: white;
-  font-weight: 200
+  font-weight: 200;
+  padding-top: 20px
 }
 
 .container{
@@ -32,15 +68,22 @@ body {
 
 .container h1 {
   font-family: 'Arvo', serif;
-  margin-top: 0px;
+  margin-top: 50px;
   margin-bottom: 50px;
   color: white
 }
 
 #pageTitle{
-  color: #F24333;
+  color: #a5170f;
   font-family: 'Arvo', serif;
   margin-top: 100px;
+}
+
+#location{
+  color: #a5170f;
+  font-family: 'Arvo', serif;
+  margin-top: 90px;
+  margin-bottom:0px
 }
 
 #dates2{
@@ -48,7 +91,7 @@ body {
 }
 
 .reasons{
-  color: #F24333;
+  color: #a5170f;
   font-family: 'Arvo', serif;
   text-transform: uppercase
 }
@@ -71,8 +114,15 @@ ul.nav {
 .btn-lg {
   font-size: 24px;
   margin-top: 40px;
-  background-color:#F24333
+  background-color:#a5170f;
+  border-color: #a5170f
 
+}
+
+.btn-danger:hover {
+  color: #fff;
+  background-color: #071970;
+  border-color: #071970;
 }
 
 .navbar-brand {
@@ -96,7 +146,7 @@ ul.nav {
 }
 
 .page-footer{
-  background-color:#F24333;
+  background-color:#a5170f;
   padding-top: 30px;
   padding-bottom: 30px
 }
@@ -110,12 +160,55 @@ ul.nav {
 }
 
 .siteLink{
-  
+  color: white
+}
+
+.siteLink:hover{
+  color: #071970
+}
+
+.navbar-inverse .navbar-toggle {
+  border-color: #071970;
+  background-color: #071970
+}
+
+.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+  background-color: #a5170f;
+  border-color: #a5170f;
+}
+
+.datesAndLocation{
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
-  margin-left: -15px;
-  /* margin-bottom: 25px; */
-  margin-top: -24px;
+/* Create two equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 380px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column{
+  border: 2px solid #071970;
+}
+
+.column p{
+  font-weight: 400;
+    font-size: 16px;
+    /* color:#071970 */
+}
+
+.column h2 {
+  color:#071970
 }
