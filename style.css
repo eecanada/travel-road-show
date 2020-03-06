@@ -79,6 +79,13 @@ body {
   margin-top: 100px;
 }
 
+#location{
+  color: #a5170f;
+  font-family: 'Arvo', serif;
+  margin-top: 90px;
+  margin-bottom:0px
+}
+
 #dates2{
   margin-bottom: 71px;
 }
@@ -182,7 +189,7 @@ ul.nav {
   float: left;
   width: 50%;
   padding: 10px;
-  height: 350px; /* Should be removed. Only for demonstration */
+  height: 380px; /* Should be removed. Only for demonstration */
 }
 
 /* Clear floats after the columns */
@@ -190,4 +197,18 @@ ul.nav {
   content: "";
   display: table;
   clear: both;
+}
+
+.column{
+  border: 2px solid #071970;
+}
+
+.column p{
+  font-weight: 400;
+    font-size: 16px;
+    /* color:#071970 */
+}
+
+.column h2 {
+  color:#071970
 }
