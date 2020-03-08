@@ -227,3 +227,12 @@ color: #a5170f
     padding-bottom: 360px;
   }
 } */
+
+
+#wheresRon {
+  max-width: 100%;
+  height: auto;
+  display: inline-block;
+  margin-bottom: 80px;
+}
+
