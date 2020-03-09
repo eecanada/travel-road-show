@@ -237,3 +237,19 @@ color: #a5170f
   /* margin-bottom: 80px; */
 }
 
+#explanation{
+  margin-bottom: 0px
+}
+
+#trackRon{
+  font-size: 24px;
+  background-color: #a5170f;
+  border-color: #a5170f;
+  margin-bottom: 70px
+}
+
+#trackRon:hover {
+  color: #fff;
+  background-color: #071970;
+  border-color: #071970;
+}
