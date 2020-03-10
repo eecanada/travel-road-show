@@ -150,7 +150,9 @@ ul.nav {
 }
 
 .siteLink{
-  color: white
+  color: white;
+  margin-bottom: 50px
+
 }
 
 .siteLink:hover{
@@ -252,4 +254,8 @@ color: #a5170f
   color: #fff;
   background-color: #071970;
   border-color: #071970;
+}
+
+#copyright{
+  margin-top:10px
 }
