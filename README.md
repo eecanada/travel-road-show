@@ -18,7 +18,7 @@
 
 # Getting Started 
 
-[Click to visit page](https://evoroadshow2020.com/)
+[Click to visit page](https://evoroadshow2022.netlify.app/)
 
 * The user navigates to the page and is able to see views what locations and dates will the CEO travel too
 * Users can click on the Navbar to get more information about the road show and even download a flyuer with more information 
