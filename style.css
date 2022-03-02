@@ -74,13 +74,13 @@ body {
 #pageTitle{
   color: #a5170f;
   font-family: 'Arvo', serif;
-  margin-top: 100px;
+  margin-top: 30px;
 }
 
 #location{
   color: #a5170f;
   font-family: 'Arvo', serif;
-  margin-top: 90px;
+  margin-top: 30px;
   margin-bottom:0px
 }
 
@@ -253,4 +253,16 @@ color: #a5170f
 
 #copyright{
   margin-top:10px
+}
+
+.jumbotron {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/roadShow.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: bottom;
+  height: 100%;
+  color: white;
+  margin-bottom: 0px;
+  padding-top: 40px;
+  padding-bottom: 50px;
 }
