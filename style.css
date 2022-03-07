@@ -1,7 +1,6 @@
 /* Move down content because we have a fixed navbar that is 50px tall */
 body {
   padding-top: 50px;
-  
 }
 
 .navbar {
@@ -17,33 +16,36 @@ body {
   padding-bottom: 10px;
 }
 
-
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
   margin-left: -15px;
   margin-top: -24px;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
   background-color: transparent;
 }
 
-.navbar-inverse .navbar-nav>li>a {
+.navbar-inverse .navbar-nav > li > a {
   color: #071970;
 }
 
-
-.navbar>.container .navbar-brand, .navbar>.container-fluid .navbar-brand {
+.navbar > .container .navbar-brand,
+.navbar > .container-fluid .navbar-brand {
   margin-left: -15px;
   margin-top: -24px;
 }
 
-.navbar-inverse .navbar-nav>li>a:focus, .navbar-inverse .navbar-nav>li>a:hover {
+.navbar-inverse .navbar-nav > li > a:focus,
+.navbar-inverse .navbar-nav > li > a:hover {
   color: #a5170f;
   background-color: transparent;
 }
 
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("./images/roadShow.jpg");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('./images/evo-roadshow-hero-img.jpg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -57,10 +59,10 @@ body {
 .jumbotron p {
   color: white;
   font-weight: 200;
-  padding-top: 20px
+  padding-top: 20px;
 }
 
-.container{
+.container {
   text-align: center;
 }
 
@@ -68,33 +70,33 @@ body {
   font-family: 'Arvo', serif;
   margin-top: 50px;
   margin-bottom: 50px;
-  color: white
+  color: white;
 }
 
-#pageTitle{
+#pageTitle {
   color: #a5170f;
   font-family: 'Arvo', serif;
   margin-top: 30px;
 }
 
-#location{
+#location {
   color: #a5170f;
   font-family: 'Arvo', serif;
   margin-top: 30px;
-  margin-bottom:0px
+  margin-bottom: 0px;
 }
 
-#dates2{
+#dates2 {
   margin-bottom: 71px;
 }
 
-.reasons{
+.reasons {
   color: #a5170f;
   font-family: 'Arvo', serif;
-  text-transform: uppercase
+  text-transform: uppercase;
 }
 
-#dates{
+#dates {
   background-color: #f5f5f5;
   padding-bottom: 90px;
 }
@@ -102,19 +104,18 @@ body {
 .explanation {
   font-weight: 400;
   font-size: 16px;
-  margin-bottom: 10px
+  margin-bottom: 10px;
 }
 ul.nav {
   font-family: 'Arvo', serif;
-  font-size: 13px
+  font-size: 13px;
 }
 
 .btn-lg {
   font-size: 24px;
   margin-top: 40px;
-  background-color:#a5170f;
-  border-color: #a5170f
-
+  background-color: #a5170f;
+  border-color: #a5170f;
 }
 
 .btn-danger:hover {
@@ -131,50 +132,49 @@ ul.nav {
   line-height: 20px;
 }
 
-.fab{
-  color: white
-}
-
-.page-footer{
-  background-color:#a5170f;
-  padding-top: 30px;
-  padding-bottom: 30px
-}
-
-.footer-copyright{
-  color:white
-}
-
-.list-inline-item{
-  color: white
-}
-
-.siteLink{
+.fab {
   color: white;
-  margin-bottom: 50px
-
 }
 
-.siteLink:hover{
-  color: #071970
+.page-footer {
+  background-color: #a5170f;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+
+.footer-copyright {
+  color: white;
+}
+
+.list-inline-item {
+  color: white;
+}
+
+.siteLink {
+  color: white;
+  margin-bottom: 50px;
+}
+
+.siteLink:hover {
+  color: #071970;
 }
 
 .navbar-inverse .navbar-toggle {
   border-color: #071970;
-  background-color: #071970
+  background-color: #071970;
 }
 
-.navbar-inverse .navbar-toggle:focus, .navbar-inverse .navbar-toggle:hover {
+.navbar-inverse .navbar-toggle:focus,
+.navbar-inverse .navbar-toggle:hover {
   background-color: #a5170f;
   border-color: #a5170f;
 }
 
-.datesAndLocation{
+.datesAndLocation {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 
 /* Create two equal columns that floats next to each other */
 .column {
@@ -186,46 +186,42 @@ ul.nav {
 
 /* Clear floats after the columns */
 .row:after {
-  content: "";
+  content: '';
   display: table;
   clear: both;
 }
 
-.column{
+.column {
   border: 2px solid #071970;
   background-color: white;
 }
 
-.column p{
+.column p {
   font-weight: 400;
-    font-size: 16px;
+  font-size: 16px;
 }
 
 .column h2 {
-  color:#071970
+  color: #071970;
 }
 
-#columnTwo a{
-  color:#071970
+#columnTwo a {
+  color: #071970;
 }
 
 #columnOne p {
-  color:#071970
+  color: #071970;
 }
 
-#columnTwo a:hover{
-text-decoration: none;
-color: #a5170f
+#columnTwo a:hover {
+  text-decoration: none;
+  color: #a5170f;
 }
-
 
 .footer-copyright a:hover {
   color: #071970;
-  text-decoration: none
+  text-decoration: none;
 }
-
-
-
 
 #wheresRon {
   max-width: 100%;
@@ -234,15 +230,15 @@ color: #a5170f
   /* margin-bottom: 80px; */
 }
 
-#explanation{
-  margin-bottom: 0px
+#explanation {
+  margin-bottom: 0px;
 }
 
-#trackRon{
+#trackRon {
   font-size: 24px;
   background-color: #a5170f;
   border-color: #a5170f;
-  margin-bottom: 70px
+  margin-bottom: 70px;
 }
 
 #trackRon:hover {
@@ -251,15 +247,16 @@ color: #a5170f
   border-color: #071970;
 }
 
-#copyright{
-  margin-top:10px
+#copyright {
+  margin-top: 10px;
 }
 
 .jumbotron {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url(./images/roadShow.jpg);
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(./images/evo-roadshow-hero-img.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position: bottom;
+  background-position: center;
   height: 100%;
   color: white;
   margin-bottom: 0px;
